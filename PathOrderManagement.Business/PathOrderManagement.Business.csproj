@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PathOrderManagement.Common\PathOrderManagement.Common.csproj" />
+    <ProjectReference Include="..\PathOrderManagement.Contract\PathOrderManagement.Contract.csproj" />
+    <ProjectReference Include="..\PathOrderManagement.DataAccess\PathOrderManagement.DataAccess.csproj" />
+    <ProjectReference Include="..\PathOrderManagement.Entity\PathOrderManagement.Entity.csproj" />
+  </ItemGroup>
+
+</Project>
